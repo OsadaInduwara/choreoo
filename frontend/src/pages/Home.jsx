@@ -10,17 +10,22 @@ function Home() {
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <Box p={2} bgcolor="#f0f0f0">
+          <Typography variant="h6">I wanted to integrate more machine learning application to this app, But I couldnt add all of them.Checkout Project page for it.</Typography>
+
           <Typography variant="h3">Welcome to my professional portfolio!</Typography>
           <Typography variant="h4">Osada Induwara</Typography>
-          <Typography variant="h6">Data Scientist & Software Engineer</Typography>
+          <Typography variant="h6">Data Scientist & ML Engineer</Typography>
           </Box>
         </Grid>
         <Grid item xs={12} md={6}>
           <Box p={2} bgcolor="#f9f9f9">
             <Typography variant="h4">About Me</Typography>
             <Typography>
-              With over 1.5 years of experience in Software Engineering and Business Intelligence, I've been involved in creating dashboard web applications and building machine learning models to solve real-world problems. I am passionate about AI and always eager to learn about the newest technologies.
-            </Typography>
+            With over 1.5 years of experience in software engineering and business intelligence, I have actively contributed to the
+development of machine learning models and dashboard web applications to address critical business needs. I have a strong
+foundation in mathematics, AI, and practical problem-solving. Now, I am seeking a full-time position as a Machine Learning
+Engineer to utilize my skills in developing scalable ML infrastructure, optimizing models, and integrating them into production
+systems.            </Typography>
           </Box>
         </Grid>
         <Grid item xs={12} md={6}>
@@ -57,7 +62,7 @@ function Home() {
             <ul>
               <li>Bachelor of Science in Computer Science (Software Engineering) - Wolverhampton University (2023)</li>
               <li>National Diploma Technology in Information Technology (NDT) - Institute of Technology University of Moratuwa (2019 - 2022)</li>
-              <li>GCE Advanced Level (Physical Science Stream) - Dutugemunu College Buttala (2017)</li>
+              <li>GCE Advanced Level (Physical Science Stream ACC) - (2017)</li>
             </ul>
           </Box>
         </Grid>

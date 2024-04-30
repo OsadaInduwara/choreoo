@@ -3,14 +3,16 @@ import Layout from "../components/Layout";
 function About() {
   return (
     <Layout>
-         <div className="home-container">
+      <Grid container spacing={4}>
+        <Grid item xs={12}>
+          <Box p={2} bgcolor="#f0f0f0">
+          <Typography variant="h3">about me</Typography>
+          <Typography variant="h6">I wanted to integrate more machine learning application to this app, But I couldnt add all of them.</Typography>
+          </Box>
+        </Grid>       
 
-    <div className="content">
-      <h2>Welcome to About</h2>
-      <p>This is the landing page of the application.</p>
-    </div>
-    </div>
-  </Layout>
+      </Grid>
+    </Layout>
     );
 }
 

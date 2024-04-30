@@ -13,7 +13,7 @@ function Navbar() {
         <div className="left-corner">
           {/* Title "My App" on the left */}
           <Typography variant="h6" component="div" className="logo">
-            <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>My App</Link>
+            <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>MY PORTFOLIO</Link>
           </Typography>
         </div>
 

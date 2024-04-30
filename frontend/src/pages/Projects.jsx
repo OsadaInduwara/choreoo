@@ -7,7 +7,7 @@ const projectsData = [
   {
     id: 1,
     title: "Project 1",
-    description: "Description of Project 1",
+    description: "A simple ML model to predict car price, and their is a option to retrain the model using a proper dataset, you just need to upload the relavant formated dataset, the app will do all preprocess and trained the model.",
   },
   {
     id: 2,
