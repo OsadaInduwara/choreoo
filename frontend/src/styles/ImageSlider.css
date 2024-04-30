@@ -1,0 +1,27 @@
+/* ImageSlider.css */
+
+/* Center the slider */
+.slick-slider {
+    margin: 0 auto;
+    width: 80%; /* Adjust as needed */
+  }
+  
+  /* Style for slide images */
+  .slick-slide img {
+    width: 30%;
+    height: auto;
+  }
+  
+  /* Style for slider dots */
+  .slick-dots {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for active dot */
+  .slick-dots li button:before {
+    color: #fff; /* Color of the active dot */
+  }
+  
+  /* Customize other styles as needed */
+  

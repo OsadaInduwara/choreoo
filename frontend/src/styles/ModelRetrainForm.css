@@ -1,0 +1,55 @@
+/* src/styles/ModelRetrainForm.css */
+
+.model-retrain-form-container {
+    margin-top: 40px;
+}
+
+.model-retrain-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.model-retrain-form label {
+    margin-bottom: 10px;
+}
+
+.model-retrain-form input[type="file"] {
+    margin-bottom: 20px;
+}
+
+.model-retrain-form button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.model-retrain-form button:hover {
+    background-color: #0056b3;
+}
+
+.alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

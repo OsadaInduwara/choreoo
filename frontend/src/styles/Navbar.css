@@ -1,0 +1,103 @@
+/* Add this CSS to create the rainbow color animation effect */
+@keyframes rainbow {
+    0% { background-color: #460404; } /* Red */
+    16.666% { background-color: #ff7f00; } /* Orange */
+    33.333% { background-color: #4f4f05; } /* Yellow */
+    50% { background-color: #0c820c; } /* Green */
+    66.666% { background-color: #3131a6; } /* Blue */
+    83.333% { background-color: #4b0082; } /* Indigo */
+    100% { background-color: #8414b4; } /* Violet */
+  }
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;          
+  padding: 5px 10px;          
+  font-family: 'Arial', sans-serif;  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  position: fixed; 
+  top: 0;
+  left: 0cm;
+  width: 100%;
+  animation: rainbow 30s infinite alternate; /* Apply the rainbow animation */
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Ensure full width */
+}
+
+.left-corner {
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+.right-corner {
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+.right-corner > * {
+  margin-left: auto; /* Move the icon to the right */
+}
+
+.navbar-buttons {
+  display: flex; /* Ensure buttons are displayed in a row */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff; /* White text on the gradient */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex; 
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  display: block;         /* Make links fill their container */
+  text-decoration: none;  /* Remove default underline */
+  color: #fff;            /* White on gradient */
+  padding: 10px 15px;
+  margin: 0 5px;          /* Spacing between links */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white */
+}
+
+.logout-btn {
+  background-color: #dc3545; /* Example red logout button */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;  
+}
+
+.logout-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.profile-icon {
+  margin-left: auto; /* Moves the profile icon to the right */
+}
+
+/* Responsive Styling (Smaller Screens) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack elements vertically  */
+  }
+}
+
+  

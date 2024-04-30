@@ -1,0 +1,163 @@
+/* Home.css */
+
+/* Container for left and right content */
+.home-container {
+  display: flex;
+}
+
+/* Left side content */
+.left-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Right side image slider */
+.right-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Hero section */
+.hero-section {
+  background-color: #fafafacb;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* About section */
+.about-section {
+  margin-top: 40px;
+}
+
+.about-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Skills section */
+.skills-section {
+  margin-top: 40px;
+}
+
+.skills-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.skills-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-section li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* Projects section */
+.projects-section {
+  margin-top: 40px;
+}
+
+.projects-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.project {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Education section */
+.education-section {
+  margin-top: 40px;
+}
+
+.education-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.education-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.education-section li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* Contact section */
+.contact-section {
+  margin-top: 40px;
+}
+
+.contact-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.contact-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+/* Slider section */
+.slider-container {
+  width: 300px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  overflow: hidden; /* Hide any overflowing content */
+
+}
+
+.slider-container img {
+  width: 100%; /* Make the image fill its container */
+  height: 100%; /* Make the image fill its container */
+}
